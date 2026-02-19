@@ -232,6 +232,17 @@ const strict: DetectionOptions = { englishThreshold: 0.95 };
 isEnglish("Hello mundo", strict);  // false
 ```
 
+## Use Cases
+
+- **Chatbots & Virtual Assistants** — validate that user messages are in English before routing to an English-only NLP pipeline or LLM
+- **Content Moderation** — reject or flag non-English submissions in forums, comment sections, or review platforms
+- **Form Validation** — ensure text fields (feedback, support tickets, descriptions) contain English input
+- **Data Pipelines & ETL** — filter English-only records from multilingual datasets during ingestion
+- **CMS & Publishing** — gate content uploads to English-only workflows
+- **Search Indexing** — tag or partition documents by language before indexing
+- **Email / Notification Filtering** — detect and route non-English inbound messages
+- **API Gateways** — enforce English-only payloads at the middleware layer
+
 ## How It Works
 
 1. **Preprocessing** — strips document IDs, geographical terms, special characters, user-supplied `customPatterns`, and `excludeWords`
