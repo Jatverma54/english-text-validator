@@ -300,4 +300,4 @@ npm test
 
 ## License
 
-[MIT](LICENSE) © nuvayutech
+[MIT](LICENSE) © [nuvayutech](https://www.nuvayutech.com)
