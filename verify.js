@@ -72,7 +72,7 @@ console.log(
 console.log(
   "Strict (0.95):",
   isEnglish("Hello mundo amigo friend", { englishThreshold: 0.95 })
-); // false
+); // true
 
 // ─── Combined Options ───────────────────────────────────────────────────────
 
